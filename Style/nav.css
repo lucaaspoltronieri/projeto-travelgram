@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    line-height: 0; /* tira qualquer espaço extra */
+    padding-block: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    padding-block: 8px;
+}
+
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+    /*se a img não estiver na proporção = "object-fit: cover*/
+    /*se não estiver arredondado = "border-radius: 50%*/
+}
